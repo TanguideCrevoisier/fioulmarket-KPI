@@ -1,7 +1,5 @@
 
 import pandas as pd
-from numpy import unicode
-
 path="D:/Tangui/2_Projet_total/base_client_et_commandes/dsi_customer_export_2018_03.csv"
 
 clt=pd.read_csv(path, error_bad_lines=False,sep=";",encoding='utf-8',dtype={"clt_num_tel_jour": str})
